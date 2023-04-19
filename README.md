@@ -1,2 +1,2 @@
-#CAKT: Coupling contrastive learning with attention networks for interpretable knowledge tracing
+CAKT: Coupling contrastive learning with attention networks for interpretable knowledge tracing
 
