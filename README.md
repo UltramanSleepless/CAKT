@@ -4,9 +4,9 @@ This repository contains source code for the paper "Coupling contrastive learnin
 
 ## Requirements
 
-''''
+```
 python==3.7.12
 PyTorch==1.11.0
 pandas==1.3.5
 numpy=1.21.5
-'''`
+```
