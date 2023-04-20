@@ -190,7 +190,7 @@ if __name__ == '__main__':
                         help='number of heads in multihead attention')
     parser.add_argument('--kq_same', type=int, default=1)
 
-    # AKT-R Specific Parameter
+    
     parser.add_argument('--l2', type=float,
                         default=1e-5, help='l2 penalty for difficulty')
 
@@ -397,7 +397,7 @@ if __name__ == '__main__':
     name = ['one', 'two', 'three', "four", "five"]
     # name = ['one',"two", "four"]
 
-    # 数据有五列三行，列名分别为one,two,three,four,five
+    # 列名分别为one,two,three,four,five
     test = pd.DataFrame(columns=name, data=result_all)
     print(test)
     # file = params.data_name+"_testcsv_"+"init"+".csv"
